@@ -9,7 +9,7 @@
     "build": "webpack --mode=production"
   },
   "keywords": [],
-  "author": "Siva Kumar GSK",
+  "author": "Suresh",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.3.4",

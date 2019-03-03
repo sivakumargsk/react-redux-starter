@@ -39,7 +39,7 @@ class SignIn extends Component {
 
   handleFormSubmit(e) {
     e.preventDefault();
-    const { values, touched } = this.state;
+    const { values } = this.state;
     const errorKeys = Object.keys(formValidator(values));
     if (errorKeys.length > 0) {
       this.setState({ touched: { username: true, password: true } });
