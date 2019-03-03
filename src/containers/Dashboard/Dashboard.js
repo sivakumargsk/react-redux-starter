@@ -1,7 +1,7 @@
 import React from 'react';
 
-const SignIn = props => {
-  return <div>Accounts </div>;
+const SignIn = () => {
+  return <div>Dashboard </div>;
 };
 
 export default SignIn;
