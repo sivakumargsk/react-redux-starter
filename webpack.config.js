@@ -7,7 +7,8 @@ module.exports = {
   entry: './src/index.js',
   output: {
     filename: '[name].bundle.js',
-    path: path.resolve(__dirname, 'dist')
+    path: path.resolve(__dirname, 'dist'),
+    publicPath: '/'
   },
   devtool: 'inline-source-map',
   watchOptions: { ignored: ['dist', 'node_modules'] },
@@ -15,7 +16,7 @@ module.exports = {
     new CleanWebpackPlugin(['dist']),
     new HtmlWebpackPlugin({
       title: 'React Starter',
-      template: './index.html'
+      template: './public/index.html'
     }),
     new webpack.HotModuleReplacementPlugin()
   ],
@@ -28,7 +29,8 @@ module.exports = {
       errors: true,
       warnings: true
     },
-    port: 8000
+    port: 8000,
+    historyApiFallback: true
   },
   module: {
     rules: [

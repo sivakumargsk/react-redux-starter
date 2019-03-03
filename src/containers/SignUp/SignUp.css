@@ -1,0 +1,11 @@
+.signup-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.signup-container .inner-form {
+  max-height: 500px;
+  max-width: 500px;
+}
