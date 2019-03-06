@@ -158,7 +158,7 @@ ReactDOM.render(
 
 ```
 
-**Container Component**: A component which doesn't have state is called Container component.
+**Container Component**: A component which have state is called Container component.
 
 ```js
 // Using ES6 Class
