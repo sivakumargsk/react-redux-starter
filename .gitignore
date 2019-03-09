@@ -62,6 +62,6 @@ typings/
 
 .tern-port
 
-dist/
+build/
 out/
 .DS_Store

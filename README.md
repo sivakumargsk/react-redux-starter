@@ -1,8 +1,8 @@
 # react-redux-starter
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Development
 
 ### `npm run start`
 
@@ -12,10 +12,12 @@ Open [http://localhost:8000](http://localhost:8000) to view it in the browser.
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
 
+## Production
+
 ### `npm run build`
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Builds the app for production to the `build` folder.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+### `npm run server`
+
+Simple NodeJS server for serving files in `build folder`.
