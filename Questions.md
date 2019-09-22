@@ -135,7 +135,7 @@ console.log(res);
 
 ### UnMount
 
-* **componentWillUnmount()** – Called after the component is unmounted from the DOM. It is used to clear up the memory spaces
+* **componentWillUnmount()** – Called before the component is unmounted from the DOM. It is used to clear up the memory spaces
 ---
 #### Question: What is Prasentational(or State-less) and Container (or State-full) Components in React ?
 **Answer:**
